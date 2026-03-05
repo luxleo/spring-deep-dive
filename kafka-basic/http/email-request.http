@@ -1,0 +1,9 @@
+POST http://localhost:8080/api/emails
+Content-Type: application/json
+
+{
+  "from": "sender@example.com",
+  "to": "receiver@example.com",
+  "subject": "Hello Kafka",
+  "body": "This is a test message from Kafka basic application"
+}
